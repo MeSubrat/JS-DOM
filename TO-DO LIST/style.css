@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+.body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+.container{
+    width: 350px;
+    /* height: 900px; */
+    max-height: 900px;
+    background-color: white;    
+    border-radius: 20px;
+    position: relative;
+    padding-bottom: 40px;
+}
+p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.mainPart{
+    height: 540px;
+    width: 100%;
+}
+h3{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+input{
+    border: none;
+    outline: none;
+    background: transparent;
+    background-color: rgb(227, 223, 223);
+    height: 40px;
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+button{
+    margin-top: 20px;
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    left: 230px;
+    border: none;
+    outline: none;
+    background-color: orange;
+    border-radius: 30px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(147, 96, 2);
+}
+ul li input{
+    /* position: absolute; */
+    cursor: pointer;
+    background-color: grey;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    cursor: pointer;  
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+}
+ul li:hover{
+    color: black;
+    /* background-color: rgb(201, 201, 201); */
+}
+#delete{
+    background-color: rgb(212, 210, 210);
+    height: 35px;
+    width: 60px;
+    border-radius: 20px;
+    margin-bottom: 1.3em;
+    margin-left: 1em;
+}
+#delete:hover{
+    background-color: rgb(165, 165, 165);
+}
+#delete:active{
+    background-color: rgb(235, 234, 234);
+}
+
