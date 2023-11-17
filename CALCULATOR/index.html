@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="body">
+        <div class="calculator">
+            <div class="display" id="display">
+                <input type="text" id="content-display" placeholder="0" readonly>
+            </div>
+            <div class="buttons-container">
+                <button id="button" onclick="
+                currentDisplay+=7;
+                display.value=currentDisplay;
+                    ">7</button>
+
+                <button id="button" onclick="
+                currentDisplay+=8;
+                display.value=currentDisplay;
+                ">8</button>
+
+                <button id="button" onclick="
+                currentDisplay+=9;
+                display.value=currentDisplay;
+                ">9</button>
+
+                <button id="button" onclick="
+                currentDisplay+=4;
+                display.value=currentDisplay;
+                ">4</button>
+
+                <button id="button" onclick="
+                currentDisplay+=5;
+                display.value=currentDisplay;
+                ">5</button>
+
+                <button id="button" onclick="
+                currentDisplay+=6;
+                display.value=currentDisplay;
+                ">6</button>
+                <button id="button" onclick="
+                currentDisplay+=1;
+                display.value=currentDisplay;
+
+                ">1</button>
+                <button id="button" onclick="
+                currentDisplay+=2;
+                display.value=currentDisplay;
+                ">2</button>
+                <button id="button" onclick="
+                currentDisplay+=3;
+                display.value=currentDisplay;
+                ">3</button>
+                <button id="button" onclick="
+                currentDisplay+=0;
+                display.value=currentDisplay;
+                ">0</button>
+                <button id="button" onclick="
+                currentDisplay='';
+                display.value=currentDisplay;
+                ">C</button>
+                <button id="button" onclick="
+                curren;
+                display.value=currentDisplay;
+                ">+</button>
+                <button id="button" onclick="
+                currentDisplay+=-'-';
+                display.value=currentDisplay;
+
+                ">-</button>
+                <button id="button" onclick="
+                currentDisplay+='*';
+                display.value=currentDisplay;
+                ">*</button>
+                <button id="button" onclick="
+                currentDisplay+='/';
+                display.value=currentDisplay;
+                ">/</button>
+                <button id="button" onclick="
+                let result=eval(currentDisplay);
+                display.value=result;
+                ">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
